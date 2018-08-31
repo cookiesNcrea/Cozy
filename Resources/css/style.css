@@ -1,0 +1,80 @@
+/*Body Obviously*/
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin:0;
+}
+
+/* Header & Navigation Bar*/
+
+header{
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  border-bottom: 1px solid seashell;
+}
+
+.logo{
+  padding-left: 10px;
+}
+
+nav span a{
+  color: seashell;
+  padding: 20px 10px;
+}
+
+/* Our Mission Main Article */
+
+#mission{
+  display: flex;
+  background-image: url(../../Resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.headers{
+  background-color: black;
+  width: 1200px;
+}
+
+/* Tea of the Month section */
+
+#store{
+  height: 700px;
+  width: 1000px;
+  margin:auto;
+}
+
+.teas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.tea img{
+  display: block;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+
+.tea span{
+  margin: 0;
+  padding: 5px;
+}
