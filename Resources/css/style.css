@@ -7,7 +7,7 @@ body{
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  margin:0;
+  margin:0 auto;
 }
 
 /* Header & Navigation Bar*/
@@ -56,25 +56,78 @@ nav span a{
 
 #store{
   height: 700px;
-  width: 1000px;
-  margin:auto;
+  width: 1200px;
+  padding-top: 70px;
+  margin: inherit;
 }
 
 .teas{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .tea img{
   display: block;
   height: 200px;
   width: 300px;
-  padding: 5px;
+  margin: 10px;
 }
 
 .tea span{
-  margin: 0;
+  margin: 0 auto;
   padding: 5px;
+}
+
+/* Locations Section */
+
+#locations{
+  height: 500px;
+  width: 1200px;
+  background-image: url(../../Resources/images/img-locations-background.jpg);
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.locations{
+  display: flex;
+  justify-content: center;
+
+}
+
+.places{
+  width: 250px;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.places h3{
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+.places p{
+  margin: 22px 0;
+}
+
+/* Contacts Section */
+
+.contact{
+  height: 200px;
+}
+
+.contact h2{
+  margin: 0;
+  padding: 10px;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 20px;
 }
